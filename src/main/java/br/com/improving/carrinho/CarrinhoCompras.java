@@ -71,9 +71,9 @@ public class CarrinhoCompras {
         int posicaoAtual = -1;
 
         for(int i = 0; i < getItens().size() & posicaoAtual < 0; i++) {
-            Item itemTemp = itens.get(i);
+            Item itemAtual = itens.get(i);
 
-            if(itemTemp.getProduto().equals(produto)) {
+            if(itemAtual.getProduto().equals(produto)) {
                 posicaoAtual = i;
             }
         }
